@@ -46,5 +46,3 @@ Python, Pandas, NumPy, SQL, Folium, Plotly Dash, Scikit-learn, Jupyter Notebook
 
 ---
 
-You can copy and paste this directly into your `README.md`.
-If you want a **one-paragraph version**, **resume-friendly version**, or **GitHub portfolio version**, I can do that too.
