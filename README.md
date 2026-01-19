@@ -3,10 +3,7 @@
 # SpaceX Falcon 9 Data Science Project
 
 This repository contains Jupyter notebooks and supporting files for the SpaceX Falcon 9 data analysis and machine learning project completed as part of the IBM Data Science Professional Certificate.
-
 The project focuses on collecting launch data, performing exploratory data analysis, building visualizations, and developing machine learning models to predict the success of Falcon 9 first-stage landings.
-
----
 
 ## Contents
 
@@ -38,11 +35,6 @@ The project focuses on collecting launch data, performing exploratory data analy
 8. **Supplemental Pictures**
    Images used for presentations and documentation.
 
----
-
 ## Tools and Technologies
-
 Python, Pandas, NumPy, SQL, Folium, Plotly Dash, Scikit-learn, Jupyter Notebook
-
----
 
