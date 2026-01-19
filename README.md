@@ -1,127 +1,44 @@
-Here’s a **clean, engaging, and GitHub-friendly README** with clear numbering and a more interesting tone, while staying professional and course-appropriate.
+SpaceX Falcon 9 Data Science Project
 
----
+This repository contains notebooks and supporting materials for the SpaceX Falcon 9 data analysis and machine learning project, completed as part of the IBM Data Science Professional Certificate.
 
-# 🚀 SpaceX Falcon 9 Data Science Project
+The project covers data collection, exploratory analysis, visualization, and model development to predict Falcon 9 first-stage landing success.
 
-**IBM Data Science Professional Certificate – Capstone**
+Contents
+1. Data Collection (API)
 
-## 📌 Overview
+Collected launch data using the SpaceX API
 
-This repository contains the complete **data analysis, visualization, and machine learning workflow** for the **SpaceX Falcon 9 launch success prediction project**, developed as part of the **IBM Data Science Professional Certificate**.
+2. Web Scraping
 
-The project walks through the **entire data science lifecycle** — from data collection and cleaning to exploratory analysis, interactive visualization, and predictive modeling.
+Scraped Falcon 9 launch data from Wikipedia
 
-📓 **Note:** If GitHub does not render the `.ipynb` files correctly, you can:
+3. Data Wrangling
 
-* Download and open them locally using **Jupyter Notebook**
-* Upload them to **Google Colab**
-* Use any other Jupyter-compatible environment
+Data cleaning and preprocessing
 
----
+4. Exploratory Data Analysis (EDA)
 
-## 📂 Project Structure & Contents
+EDA with SQL
 
-### **1️⃣ Data Collection (API)**
+EDA using Python (Pandas, Matplotlib, Seaborn)
 
-* Collected SpaceX launch data using the **SpaceX REST API**
-* Extracted launch details, payload information, and landing outcomes
+5. Visual Analytics
 
----
+Folium maps for launch site visualization
 
-### **2️⃣ Web Scraping**
+Plotly Dash (JupyterDash and standalone Dash)
 
-* Scraped Falcon 9 launch records from Wikipedia
-* Parsed HTML tables using **BeautifulSoup** and **Pandas**
+6. Machine Learning
 
----
+Built classification models to predict launch success
 
-### **3️⃣ Data Wrangling**
+Used GridSearchCV for model tuning
 
-* Cleaned missing values
-* Standardized categorical variables
-* Converted data types for analysis and modeling
+7. Flowcharts
 
----
+Project workflow and modeling process
 
-### **4️⃣ Exploratory Data Analysis (EDA)**
+8. Supplemental Pictures
 
-#### 🔹 EDA with SQL
-
-* Queried launch data using **SQL** to identify patterns and trends
-
-#### 🔹 EDA with Python
-
-* Used **Pandas**, **Matplotlib**, and **Seaborn** for statistical analysis and visualization
-
----
-
-### **5️⃣ Visual Analytics**
-
-#### 🗺️ Folium Maps
-
-* Visualized launch sites and landing outcomes on interactive maps
-
-#### 📊 Plotly Dash
-
-* Built interactive dashboards using:
-
-  * **JupyterDash**
-  * **Dash (standalone app)**
-
----
-
-### **6️⃣ Machine Learning Models**
-
-* Built and evaluated classification models to predict **launch success**
-* Models include:
-
-  * Logistic Regression
-  * Decision Trees
-  * Support Vector Machines
-  * K-Nearest Neighbors
-* Applied **GridSearchCV** for hyperparameter tuning
-
----
-
-### **7️⃣ Flowcharts**
-
-* Visual representations of:
-
-  * Project workflow
-  * Data pipeline
-  * Model development process
-
----
-
-### **8️⃣ Supplemental Pictures**
-
-* Supporting images for presentations and reports
-* Used in PowerPoint slides and documentation
-
----
-
-## 🎯 Objective
-
-The main goal of this project is to **predict whether the Falcon 9 first stage will successfully land**, helping estimate launch costs and demonstrate real-world data science skills.
-
----
-
-## 🛠️ Tools & Technologies
-
-* Python (Pandas, NumPy, Scikit-Learn)
-* SQL
-* Folium
-* Plotly & Dash
-* Jupyter Notebook / JupyterDash
-* Git & GitHub
-
----
-
-⭐ If you find this project helpful or inspiring, feel free to **star the repository**!
-
-Let me know if you want:
-
-* A **shorter README**
-* A **portfolio-focused version**
-* Or **badges and visuals** added at the top 🚀
+Images used for presentation slides
